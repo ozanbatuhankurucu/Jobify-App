@@ -1,12 +1,11 @@
-// import styled from 'styled-components'
-// import Wrapper from '../assets/wrappers/LandingPage'
+import Wrapper from '../assets/wrappers/LandingPage'
 import main from '../assets/images/main.svg'
 import { Link } from 'react-router-dom'
 import { Logo } from '../components'
 
 export const Landing = () => {
   return (
-    <>
+    <Wrapper>
       <nav>
         <Logo />
       </nav>
@@ -30,6 +29,6 @@ export const Landing = () => {
         </div>
         <img src={main} alt='job hunt' className='img main-img' />
       </div>
-    </>
+    </Wrapper>
   )
 }
